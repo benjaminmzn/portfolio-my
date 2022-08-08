@@ -1,0 +1,10 @@
+.app-navbar{
+  margin: 0;
+  min-width: 100vh;
+  background-color: #282c34;
+  text-align: end;
+}
+
+.App{
+  margin: 0;
+}
