@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
 ul {
     list-style-type: none;
     margin-right: 25px;
@@ -5,11 +7,27 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 17px;
     color: #fefefe;
 }
 
 .navbar-body{
     margin:0;
     top: 0px;
+}
+
+.navbar-options-li-text{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FEFEFE;
+}
+
+.navbar-options-li-icon{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
 }
